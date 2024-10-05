@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>INFO2180 Lab 2</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO2180 Lab 2</title>
+    <link rel="stylesheet" href="styles.css.txt">
 </head>
 <body>
-<div class="container">
-	<header>
-	<h1>Your Name's Blog</h1>
-	<p><!-- Put your one line statement or quote here --></p>
-	</header>
-	<main>
-	  <!-- This will contain your blog posts -->
-	</main>
-	<aside>
-	<!-- This will be your sidebar -->
-	</aside>
-	<footer>
-	  <p>Copyright &copy; 2024, Your Name</p>
-	</footer>
-</div>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="header-content">
+                <h1>Kamal McMillan's Blog</h1>
+                <p>A Young and Talented Web Developer and Coder</p>
+                <img src="/Users/kamalmcmillan/Downloads/MyImage.jpg" alt="Your Photo" class="profile-picture">
+            </div>
+        </header>
+
+        <!-- Sidebar Section -->
+        <aside>
+            <!-- About Section -->
+            <section class="about">
+                <h3>About</h3>
+                <p>Hello! I'm a passionate web developer and designer. Welcome to my blog!</p>
+            </section>
+
+            <!-- Social Media Section -->
+            <section class="social-media">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/kamal-mcmillan-540329248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh7GmFx%2FpQaGZvcqTZlE%2FJA%3D%3D" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/KMcMillan7" target="_blank">GitHub</a></li>
+                </ul>
+            </section>
+
+            <!-- Archives Section -->
+            <section class="archives">
+                <h3>Archives</h3>
+                <ul>
+                    <li><a href="#">October 2024</a></li>
+                    <li><a href="#">September 2024</a></li>
+                    <li><a href="#">August 2024</a></li>
+                    <li><a href="#">July 2024</a></li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- Main Content Section -->
+        <main>
+            <!-- First Blog Post -->
+            <article>
+                <h2>School</h2>
+                <p class="post-info">October 1, 2024 by Kamal</p>
+                <img src="https://www.mona.uwi.edu/principal/sites/default/files/principal/annex-960.jpg" alt="Blog Image 1" class="blog-image right">
+                <p>College is often a transformative time in a person's life, filled with opportunities for growth, learning, and new experiences. However, it also comes with its fair share of challenges. Students are tasked with balancing academic workloads, which can be overwhelming, especially with the pressure to maintain high grades. Time management becomes a crucial skill as students juggle classes, assignments, and studying, alongside part-time jobs or internships. The freedom and independence of college life can be both exciting and daunting, as it requires individuals to take on more responsibilities without the immediate support they may have relied on at home.</p>
+                <p>On top of academic stress, college students also face personal and emotional challenges. Many experience homesickness, especially when they move far away from their families and familiar environments. The pressure to fit in socially, make friends, and navigate relationships can add another layer of difficulty. Financial strain is also a significant concern for many students, as tuition fees, textbooks, and living expenses can be a burden. This combination of academic, social, and financial pressures can contribute to feelings of anxiety and stress, making the college experience both rewarding and challenging.</p>
+            </article>
+
+            <!-- Second Blog Post -->
+            <article>
+                <h2>Technology</h2>
+                <p class="post-info">October 3, 2024 by Kamal</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmBWg9kroNQcUHePjkfGtoIheDSWmfmKOnVQ&s" alt="Blog Image 2" class="blog-image left">
+                <p>Technology has become an integral part of modern life, revolutionizing the way we communicate, work, and entertain ourselves. From smartphones to advanced computing, technology has made the world more connected than ever. With just a few taps, people can access vast amounts of information, communicate instantly with others across the globe, and manage tasks that once took hours in mere minutes. The rise of artificial intelligence, automation, and data-driven tools continues to push the boundaries of what is possible, transforming industries such as healthcare, education, and finance.</p>
+                <p>However, the rapid advancement of technology also brings new challenges and concerns. The growing dependence on digital devices has raised issues surrounding privacy, security, and the potential for surveillance. Many people worry about the ethical implications of AI and automation, particularly in regard to job displacement and decision-making. Additionally, the digital divide highlights the disparity in access to technology between different socioeconomic groups, leading to inequalities in education and opportunities. As technology continues to evolve, society must navigate these complexities while maximizing its benefits.</p>
+            </article>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <p> Copyright &copy; 2024, Kamal McMillan</p>
+        </footer>
+    </div>
 </body>
 </html>
