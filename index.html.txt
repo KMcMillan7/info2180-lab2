@@ -13,7 +13,7 @@
             <div class="header-content">
                 <h1>Kamal McMillan's Blog</h1>
                 <p>A Young and Talented Web Developer and Coder</p>
-                <img src="/Users/kamalmcmillan/Downloads/MyImage.jpg" alt="Your Photo" class="profile-picture">
+                <img src="/Users/kamalmcmillan/info2180-lab2/MyImage.jpg" alt="Your Photo" class="profile-picture">
             </div>
         </header>
 
